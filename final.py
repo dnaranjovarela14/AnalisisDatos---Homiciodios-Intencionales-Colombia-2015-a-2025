@@ -50,6 +50,7 @@ df2020 = pd.read_excel(path2020)
 df2021 = pd.read_excel(path2021)
 df2022 = pd.read_excel(path2022)
 df2023 = pd.read_excel(path2023)
+df2023.rename(columns={'ARMA MEDIO':'ARMAS MEDIOS'}, inplace=True)
 df2024 = pd.read_excel(path2024)
 df2025 = pd.read_excel(path2025)
 
